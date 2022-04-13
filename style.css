@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+   
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+h1{
+    font-size: 5rem;
+    color: rgb(3, 3, 27);
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: green;
+  font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.decrease{
+    padding: 5px;
+    text-transform: uppercase;
+}
+.reset{
+    padding: 5px;
+    text-transform: uppercase;
+}
+.increase{
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.increase:active, .decrease:active, .reset:active{
+    border: 1px solid rgb(0, 119, 255);
+}
